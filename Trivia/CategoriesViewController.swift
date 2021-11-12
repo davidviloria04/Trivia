@@ -37,7 +37,6 @@ extension CategoriesViewController: UITableViewDataSource,  UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        //coment
         cell.textLabel?.text = categories[indexPath.row]
         return cell
     }
