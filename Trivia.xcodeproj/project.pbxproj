@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		495B618B272F28A200CDFFAA /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495B6189272F28A200CDFFAA /* QuestionViewController.swift */; };
 		495B618C272F28A200CDFFAA /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495B618A272F28A200CDFFAA /* QuestionViewController.xib */; };
+		49750DF5273E17EB00C29C5B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49750DF4273E17EB00C29C5B /* Category.swift */; };
 		4983BEFE2730751F00598CB6 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983BEFC2730751F00598CB6 /* CategoriesViewController.swift */; };
 		4983BEFF2730751F00598CB6 /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4983BEFD2730751F00598CB6 /* CategoriesViewController.xib */; };
 		4983BF012730761100598CB6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983BF002730761100598CB6 /* TabBarViewController.swift */; };
@@ -26,6 +27,7 @@
 		1CED01EE693CAFD25939CF24 /* Pods-Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.debug.xcconfig"; path = "Target Support Files/Pods-Trivia/Pods-Trivia.debug.xcconfig"; sourceTree = "<group>"; };
 		495B6189272F28A200CDFFAA /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		495B618A272F28A200CDFFAA /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		49750DF4273E17EB00C29C5B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4983BEFC2730751F00598CB6 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		4983BEFD2730751F00598CB6 /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
 		4983BF002730761100598CB6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				49D18E4C272C66B8006D1D3A /* InitialViewController.swift */,
 				495B6189272F28A200CDFFAA /* QuestionViewController.swift */,
 				4983BEFC2730751F00598CB6 /* CategoriesViewController.swift */,
+				49750DF4273E17EB00C29C5B /* Category.swift */,
 				49D18E41272C6687006D1D3A /* Assets.xcassets */,
 				49D18E43272C6687006D1D3A /* LaunchScreen.storyboard */,
 				49D18E46272C6687006D1D3A /* Info.plist */,
@@ -233,6 +236,7 @@
 				4983BF012730761100598CB6 /* TabBarViewController.swift in Sources */,
 				49D18E3B272C6685006D1D3A /* SceneDelegate.swift in Sources */,
 				49D18E4E272C66B8006D1D3A /* InitialViewController.swift in Sources */,
+				49750DF5273E17EB00C29C5B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
